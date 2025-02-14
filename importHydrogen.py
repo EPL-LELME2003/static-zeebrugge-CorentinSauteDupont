@@ -1,3 +1,4 @@
+Corentin Dupont
 import pyomo.environ as pyo
 
 # Create a Pyomo model
