@@ -47,7 +47,7 @@ model.maxCO2Constr = pyo.Constraint(rule=maxCO2)
 model.dual = pyo.Suffix(direction=pyo.Suffix.IMPORT)
 model.rc = pyo.Suffix(direction=pyo.Suffix.IMPORT)
 
-solver = pyo.SolverFactory('C:\Users\dupti\gurobi.lic')
+solver = pyo.SolverFactory("gurobi")
 sol = solver.solve(model)
 
 
